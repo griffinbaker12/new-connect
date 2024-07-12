@@ -16,7 +16,7 @@ render(() => <App />, root!)
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.getRegistrations().then(function(registrations) {
-    console.log("Service Worker Registrations:", registrations);
-  });
+    console.log('Service Worker Registrations:', registrations)
+  })
 }
 
