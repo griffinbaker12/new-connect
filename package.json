@@ -26,6 +26,7 @@
     "@testing-library/user-event": "^14.5.2",
     "@types/eslint__js": "^8.42.3",
     "@types/mapbox__polyline": "^1.0.5",
+    "@types/serviceworker": "^0.0.89",
     "@typescript-eslint/eslint-plugin": "^7.13.0",
     "@typescript-eslint/parser": "^7.13.0",
     "autoprefixer": "^10.4.19",

@@ -14,6 +14,12 @@ export default defineConfig({
   },
   build: {
     target: 'esnext',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        sw: 'public/sw.ts',
+      },
+    },
   },
   resolve: {
     alias: {
