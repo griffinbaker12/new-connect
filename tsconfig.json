@@ -17,7 +17,6 @@
     },
     "skipLibCheck": true,
     "incremental": true,
-    "lib": ["WebWorker"]
   },
   "include": ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.cjs"],
   "exclude": ["node_modules", "dist"]
